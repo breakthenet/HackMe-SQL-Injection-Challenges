@@ -25,8 +25,10 @@ Thanks!
 
 ----------------------
 
+Stuck? 
+----------------------
 <details> 
-  <summary>Q1: What is the best Language in the World? </summary>
-   A1: JavaScript 
+  <summary>Click for hint 1</summary>
+   You need to inject into the Select query just like last time using a Union. [Look at the code](https://github.com/breakthenet/sql-injection-challenge-2/blob/master/cmarket.php#L109-L130) - note that after injecting into the select query, you must get past two error messages, then one of the things you just selected in your injected union gets passed as a parameter to the second query, which is an update to the user table! That's the vector.
 </details>
 
