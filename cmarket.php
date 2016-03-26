@@ -127,7 +127,7 @@ function crystal_buy()
     }
     $query2 = "UPDATE users SET crystals=crystals+{$r['cmQTY']} where userid=$userid";
     error_log($query2);
-    mysql_query($query2, $c) or die(mysql_error());
+    mysql_query($query2, $c);
     mysql_query("DELETE FROM crystalmarket WHERE cmID={$_GET['ID']}", $c);
     mysql_query(
             "UPDATE users SET money=money-{$r['cmPRICE']} where userid=$userid",

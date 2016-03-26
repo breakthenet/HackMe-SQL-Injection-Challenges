@@ -18,3 +18,5 @@ Challenges:
 [Challenge 4](https://github.com/breakthenet/sql-injection-exercises/blob/master/challenges/challenge_4.md): Exploring how to bypass some types of input filtering by obsfucation
 
 ----------------------
+
+Note that useful information for testing and debugging will be logged to the Papertrail app in your heroku instance. Open papertrail to view those streaming logs.
