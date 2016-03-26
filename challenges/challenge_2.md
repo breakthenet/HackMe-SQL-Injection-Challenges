@@ -1,12 +1,5 @@
-# sql-injection challenge 2
+# sql-injection Challenge 2
 
-A Text-Based MMORPG Game based off Mccode Lite (GPL)
-
-Deploy to your own Heroku instance with this button below, then complete the challenge!
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-Challenge:
 ----------------------
 
 Friend, you've got to help me out! 

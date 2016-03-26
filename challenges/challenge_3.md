@@ -1,12 +1,5 @@
-# sql-injection challenge 3
+# sql-injection Challenge 3
 
-A Text-Based MMORPG Game based off Mccode Lite (GPL)
-
-Deploy to your own Heroku instance with this button below, then complete the challenge!
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-Challenge:
 ----------------------
 
 Thanks for your help on the last one friend - based on your analysis, I was able to duplicate the bug.
