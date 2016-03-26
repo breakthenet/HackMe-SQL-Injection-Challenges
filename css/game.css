@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: helvetica, arial, geneva, sans-serif;
+	font-size: 9pt;
+	color: black;
+	scrollbar-base-color: #005B70;
+	scrollbar-arrow-color: #F3960B;
+	scrollbar-DarkShadow-Color: #000000;
+}
+
+a:visited,a:active,a:hover,a:link {
+	color: black;
+	text-decoration: none;
+}
+
+table,tr,td {
+	font-family: helvetica, arial, geneva, sans-serif;
+	font-size: 9pt;
+}
+
+img {
+	border: none;
+}
+
+textarea {
+	font-family: helvetica, arial, geneva, sans-serif;
+	font-size: 9pt;
+	color: black;
+}

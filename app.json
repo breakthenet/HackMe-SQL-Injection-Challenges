@@ -1,0 +1,13 @@
+{
+  "env": {
+    "IS_HEROKU": "1"
+  },
+  "addons": [
+    "papertrail",
+    "cleardb"
+  ],
+  "success_url": "/login.php",
+  "scripts": {
+    "postdeploy": "php setup_mysql.php"
+  }
+}
