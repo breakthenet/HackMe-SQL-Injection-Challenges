@@ -18,7 +18,7 @@ Stuck?
 ----------------------
 <details> 
   <summary>Click for hint 1</summary>
-   This is not a black box challenge, you can look in the source code for clues! Specifically, I'd explore [this function](https://github.com/breakthenet/sql-injection-exercises/blob/master/itemmarket.php#L118-L164) - do you see a spot where user input is being put into a query where data is being deleted?
+   This is not a black box challenge, you can look in the source code for clues! Specifically, I'd explore [this function](https://github.com/breakthenet/sql-injection-exercises/blob/master/itemmarket.php#L118-L155) - do you see a spot where user input is being put into a query where data is being deleted?
 </details>
 
 <details> 
@@ -28,7 +28,7 @@ Stuck?
 
 <details> 
   <summary>Click for hint 3</summary>
-   The specific query you need to exploit is [here](https://github.com/breakthenet/sql-injection-exercises/blob/master/itemmarket.php#L144). Note that you need to get past the two error messages above it, which means you must actually be purchasing a real item at the same time, and you must be able to afford that item.
+   The specific query you need to exploit is [here](https://github.com/breakthenet/sql-injection-exercises/blob/master/itemmarket.php#L133). Note that you need to get past the two error messages above it, which means you must actually be purchasing a real item at the same time, and you must be able to afford that item.
 </details>
 
 
