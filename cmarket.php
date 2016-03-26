@@ -105,10 +105,9 @@ function crystal_remove()
 function crystal_buy()
 {
     global $ir, $c, $userid, $h;
-    $cleaned_id = mysql_real_escape_string($_GET['ID']);
     $q =
             mysql_query(
-                    "SELECT * FROM crystalmarket cm WHERE cmID={$cleaned_id}",
+                    "SELECT * FROM crystalmarket cm WHERE cmID={$_GET['ID']}",
                     $c);
     if (!mysql_num_rows($q))
     {
