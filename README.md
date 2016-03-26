@@ -9,11 +9,15 @@ Deploy to your own Heroku instance with this button below, then complete the cha
 Challenge:
 ----------------------
 
-Friend, you've got to help me out! I know you've been picking up knowledge of cybersecurity - I have an issue and could use your help.
+Thanks for your help on the last one friend - based on your analysis, I was able to duplicate the bug.
 
-I was looking at my database earlier today, and found an account with 9999999 crystals (which is one of the currencies in my game). It is impossible for them to get that number legitimately, that many crystals don't even exist in my game!
+Before I had a chance to fix it though, I actually got a message from the hacker. His account had suddenly gone from level 1 to level 100, which should be impossible to attain in under a year.
 
-Can you look into it and see if you can find the hole through which this user obtained so many crystals? If you could duplicate the bug, I can fix it. A good place to start would likely be the Crystal Market on the Explore page. Feel free to explore the source code as well if that helps.
+In his message, the hacker said he used a bug in the crystal markets to update his user in the database. He told me I had 7 days to find and fix this bug, and then he would announce it publicly. 
+
+I hate to do this to you, but can you help me again? You were successful in finding the first bug - but based on what you told me that could only select data from the database and not update it, right? Or is that not the case?
+
+Please look into this - if the hacker could do it, I'm sure you can too. Let's close this hole before his 7 day "grace period" expires.
 
 Thanks!
 
