@@ -40,7 +40,7 @@ if (mysql_num_rows($uq) == 0)
 else
 {
     $mem = mysql_fetch_assoc($uq);
-    $login_failed = !(verify_user_password($raw_password, $mem['pass_salt'], $mem['userpass']));
+    $login_failed = !(verify_user_password($raw_password, $mem['userpass']));
     if ($login_failed)
     {
         die(

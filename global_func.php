@@ -263,9 +263,9 @@ function get_rank($stat, $mykey)
  * @return boolean	true for equal, false for not (login failed etc)
  *
  */
-function verify_user_password($input, $salt, $pass)
+function verify_user_password($input, $pass)
 {
-    return ($pass === encode_password($input, $salt));
+    return ($pass === encode_password($input));
 }
 
 /**
@@ -280,13 +280,9 @@ function verify_user_password($input, $salt, $pass)
  *
  * @return string	The resulting encoded password.
  */
-function encode_password($password, $salt, $already_md5 = false)
+function encode_password($password)
 {
-    if (!$already_md5)
-    {
-        $password = md5($password);
-    }
-    return md5($salt . $password);
+    return md5($password);
 }
 
 /**

@@ -527,7 +527,7 @@ function new_user_submit()
 			strip_tags(stripslashes($_POST['login_name'])), $c);
 	$password = stripslashes($_POST['userpass']);
 	$salt = generate_pass_salt();
-	$enc_psw = encode_password($password, $salt, false);
+	$enc_psw = encode_password($password);
 	$i_salt = mysql_real_escape_string($salt, $c);
 	$i_encpsw = mysql_real_escape_string($enc_psw, $c);
 	$email =

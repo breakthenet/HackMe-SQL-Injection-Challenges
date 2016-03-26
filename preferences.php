@@ -131,7 +131,7 @@ function do_pass_change()
     $oldpw = stripslashes($_POST['oldpw']);
     $newpw = stripslashes($_POST['newpw']);
     $newpw2 = stripslashes($_POST['newpw2']);
-    if (!verify_user_password($oldpw, $ir['pass_salt'], $ir['userpass']))
+    if (!verify_user_password($oldpw, $ir['userpass']))
     {
         echo "
 		The current password you entered was wrong.<br />
@@ -148,7 +148,7 @@ function do_pass_change()
         // Re-encode password
         $new_psw =
                 mysql_real_escape_string(
-                        encode_password($newpw, $ir['pass_salt']), $c);
+                        encode_password($newpw), $c);
         mysql_query(
                 "UPDATE `users`
                  SET `userpass` = '{$new_psw}'
