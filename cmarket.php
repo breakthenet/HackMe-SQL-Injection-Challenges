@@ -127,15 +127,15 @@ function crystal_buy()
     }
     $query2 = "UPDATE users SET crystals=crystals+{$r['cmQTY']} where userid=$userid";
     error_log($query2);
-    mysql_query($query2, $c);
-    mysql_query("DELETE FROM crystalmarket WHERE cmID={$_GET['ID']}", $c);
-    mysql_query(
+    @mysql_query($query2, $c);
+    @mysql_query("DELETE FROM crystalmarket WHERE cmID={$_GET['ID']}", $c);
+    @mysql_query(
             "UPDATE users SET money=money-{$r['cmPRICE']} where userid=$userid",
             $c);
-    mysql_query(
+    @mysql_query(
             "UPDATE users SET money=money+{$r['cmPRICE']} where userid={$r['cmADDER']}",
             $c);
-    event_add($r['cmADDER'],
+    @event_add($r['cmADDER'],
             "<a href='viewuser.php?u=$userid'>{$ir['username']}</a> bought your {$r['cmQTY']} crystals from the market for \$"
                     . number_format($r['cmPRICE']) . ".", $c);
     print
