@@ -19,6 +19,8 @@ Challenges:
 
 [Challenge 5](https://github.com/breakthenet/sql-injection-exercises/blob/master/challenges/challenge_5.md): Exploring additional non-standard forms of user-input to achieve sql-injection
 
+[Challenge 6](https://github.com/breakthenet/sql-injection-exercises/blob/master/challenges/challenge_6.md): Automating much of the process with existing tools, as well as seeing what's possible when a sql injection is uncovered.
+
 ----------------------
 
 Note that useful information for testing and debugging will be logged to the Papertrail app in your heroku instance. Open papertrail to view those streaming logs.
