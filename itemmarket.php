@@ -120,14 +120,6 @@ function item_buy()
     global $ir, $c, $userid, $h;
     error_log("SELECT * FROM itemmarket im LEFT JOIN items i ON i.itmid=im.imITEM WHERE imID={$_GET['ID']}");
     $q = mysql_query("SELECT * FROM itemmarket im LEFT JOIN items i ON i.itmid=im.imITEM WHERE imID={$_GET['ID']}", $c);
-    if (!mysql_num_rows($q))
-    {
-        print
-                "Error, either this item does not exist, or it has already been bought.<br />
-<a href='itemmarket.php'>&gt; Back</a>";
-        $h->endpage();
-        exit;
-    }
     $r = mysql_fetch_array($q);
     if ($r['imPRICE'] > $ir['money'])
     {
@@ -137,11 +129,11 @@ function item_buy()
         $h->endpage();
         exit;
     }
+    error_log("DELETE FROM itemmarket WHERE imID={$_GET['ID']}");
+    mysql_query("DELETE FROM itemmarket WHERE imID={$_GET['ID']}", $c);
     mysql_query("INSERT INTO inventory VALUES(NULL,{$r['imITEM']},$userid,1)",
             $c) or die(mysql_error());
     $i = mysql_insert_id($c);
-    error_log("DELETE FROM itemmarket WHERE imID={$_GET['ID']}");
-    mysql_query("DELETE FROM itemmarket WHERE imID={$_GET['ID']}", $c);
     mysql_query(
             "UPDATE users SET money=money-{$r['imPRICE']} where userid=$userid",
             $c);

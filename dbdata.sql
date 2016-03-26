@@ -672,13 +672,19 @@ CREATE TABLE `itemmarket` (
 
 LOCK TABLES `itemmarket` WRITE;
 /*!40000 ALTER TABLE `itemmarket` DISABLE KEYS */;
-INSERT INTO `itemmarket` VALUES (1,1,2,100);
-INSERT INTO `itemmarket` VALUES (1,3,2,100);
-INSERT INTO `itemmarket` VALUES (1,4,2,100);
-INSERT INTO `itemmarket` VALUES (1,8,2,100);
-INSERT INTO `itemmarket` VALUES (1,14,2,100);
-INSERT INTO `itemmarket` VALUES (1,36,2,100);
-INSERT INTO `itemmarket` VALUES (1,38,2,100);
+INSERT INTO `itemmarket` VALUES (1,1,2,10);
+INSERT INTO `itemmarket` VALUES (2,3,2,10);
+INSERT INTO `itemmarket` VALUES (3,4,2,10);
+INSERT INTO `itemmarket` VALUES (4,8,2,10);
+INSERT INTO `itemmarket` VALUES (5,14,2,10);
+INSERT INTO `itemmarket` VALUES (6,36,2,10);
+INSERT INTO `itemmarket` VALUES (7,38,2,10);
+INSERT INTO `itemmarket` VALUES (8,38,2,10);
+INSERT INTO `itemmarket` VALUES (9,38,2,10);
+INSERT INTO `itemmarket` VALUES (10,38,2,10);
+INSERT INTO `itemmarket` VALUES (11,38,2,10);
+INSERT INTO `itemmarket` VALUES (12,38,2,10);
+INSERT INTO `itemmarket` VALUES (13,38,2,10);
 /*!40000 ALTER TABLE `itemmarket` ENABLE KEYS */;
 UNLOCK TABLES;
 
