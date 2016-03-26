@@ -13,6 +13,8 @@ Challenges:
 
 [Challenge 2](https://github.com/breakthenet/sql-injection-exercises/blob/master/challenges/challenge_2.md): Taking it a step further and exploring subquery usage in SQL Injection
 
-[Challenge 3](https://github.com/breakthenet/sql-injection-exercises/blob/master/challenges/challenge_3.md): Exploring how to bypass some types of input filtering by obsfucation
+[Challenge 3](https://github.com/breakthenet/sql-injection-exercises/blob/master/challenges/challenge_3.md): Using subquery on different table to extract admin login credentials
+
+[Challenge 4](https://github.com/breakthenet/sql-injection-exercises/blob/master/challenges/challenge_4.md): Exploring how to bypass some types of input filtering by obsfucation
 
 ----------------------
