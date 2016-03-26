@@ -18,7 +18,7 @@ Stuck?
 ----------------------
 <details> 
   <summary>Click for hint 1</summary>
-   Start by gathering info. What does the [user table](https://github.com/breakthenet/sql-injection-exercises/blob/master/dbdata.sql#L1184-L1226) look like in sql?
+   Start by gathering info. What does the [user table](https://github.com/breakthenet/sql-injection-exercises/blob/master/dbdata.sql#L1190-L1233) look like in sql?
 </details>
 
 <details> 
