@@ -28,7 +28,7 @@ Stuck?
 
 <details> 
   <summary>Click for hint 3</summary>
-   Javascript has a handy function called [String.fromCharCode](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode) that converts numbers into a string. Perhaps MySQL has functions that do something similar?
+   Once you extract the password hash, "decrypt" it. True, a hash is a one way function and not actually encrypted - but as the site doesn't use salt on it's passwords, it will be trivial to reverse it if it's a common dictionary word. 
 </details>
 
 

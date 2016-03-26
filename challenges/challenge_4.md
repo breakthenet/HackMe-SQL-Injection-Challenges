@@ -22,7 +22,7 @@ Stuck?
 ----------------------
 <details> 
   <summary>Click for hint 1</summary>
-   You need to inject into the Select query just like last time using a Union. [Look at the code](https://github.com/breakthenet/sql-injection-exercises/blob/master/cmarket.php#L108-L129) - note that after injecting into the select query, you must get past two error messages, then one of the things you just selected in your injected union gets passed as a parameter to the second query, which is an update to the user table! That's the vector.
+   You need to inject into the Select query just like last time using a Union. [Look at the code](https://github.com/breakthenet/sql-injection-exercises/blob/master/cmarket.php#L109-L128) - note that after injecting into the select query, you must get past two error messages, then one of the things you just selected in your injected union gets passed as a parameter to the second query, which is an update to the user table! That's the vector.
 </details>
 
 <details> 
