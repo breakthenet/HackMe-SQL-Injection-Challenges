@@ -140,9 +140,7 @@ function crystal_buy()
             "UPDATE users SET money=money+{$r['cmPRICE']} where userid={$r['cmADDER']}",
             $c);
     print 5;
-    event_add($r['cmADDER'],
-            "<a href='viewuser.php?u=$userid'>{$ir['username']}</a> bought your {$r['cmQTY']} crystals from the market for \$"
-                    . number_format($r['cmPRICE']) . ".", $c);
+    //event_add($r['cmADDER'], "<a href='viewuser.php?u=$userid'>{$ir['username']}</a> bought your {$r['cmQTY']} crystals from the market for \$". number_format($r['cmPRICE']) . ".", $c);
     print 6;
     print
             "You bought the {$r['cmQTY']} crystals from the market for \$"
