@@ -20,7 +20,7 @@ Stuck?
 ----------------------
 <details> 
   <summary>Click for hint 1</summary>
-   [Here is the code](https://github.com/breakthenet/sql-injection-exercises/blob/master/cmarket.php#L109-L111) associated with buying crystals from the crystal market. Anything stick out to you?
+   [Here is the code](https://github.com/breakthenet/sql-injection-exercises/blob/master/cmarket.php#L109) associated with buying crystals from the crystal market. Anything stick out to you?
 </details>
 
 <details> 
