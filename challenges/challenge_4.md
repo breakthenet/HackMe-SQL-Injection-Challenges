@@ -27,7 +27,7 @@ Stuck?
 
 <details> 
   <summary>Click for hint 2</summary>
-   Note that [all input](https://github.com/breakthenet/sql-injection-exercises/blob/master/global_func.php#L432-L450) is ran through PHP's magicquote or [addslashes](http://php.net/manual/en/function.addslashes.php) commands. These essentially just add backslashes to escape any quotes in your input. This will prevent you from using quotes in your injection - can you think of a way around that?
+   Note that [all input](https://github.com/breakthenet/sql-injection-exercises/blob/master/global_func.php#L428-L447) is ran through PHP's magicquote or [addslashes](http://php.net/manual/en/function.addslashes.php) commands. These essentially just add backslashes to escape any quotes in your input. This will prevent you from using quotes in your injection - can you think of a way around that?
 </details>
 
 <details> 
