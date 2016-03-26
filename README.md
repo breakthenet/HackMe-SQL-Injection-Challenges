@@ -32,3 +32,15 @@ Stuck?
    You need to inject into the Select query just like last time using a Union. [Look at the code](https://github.com/breakthenet/sql-injection-challenge-2/blob/master/cmarket.php#L108-L129) - note that after injecting into the select query, you must get past two error messages, then one of the things you just selected in your injected union gets passed as a parameter to the second query, which is an update to the user table! That's the vector.
 </details>
 
+<details> 
+  <summary>Click for hint 2</summary>
+   Note that [all input](https://github.com/breakthenet/sql-injection-challenge-2/blob/master/global_func.php#L432-L450) is ran through PHP's magicquote or [addslashes](http://php.net/manual/en/function.addslashes.php) commands. These essentially just add backslashes to escape any quotes in your input. This will prevent you from using quotes in your injection - can you think of a way around that?
+</details>
+
+<details> 
+  <summary>Click for hint 3</summary>
+   Javascript has a handy function called [String.fromCharCode](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode) that converts numbers into a string. Perhaps MySQL has functions that do something similar?
+</details>
+
+
+
