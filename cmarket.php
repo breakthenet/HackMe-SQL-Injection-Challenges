@@ -105,9 +105,8 @@ function crystal_remove()
 function crystal_buy()
 {
     global $ir, $c, $userid, $h;
-    $query = "SELECT * FROM crystalmarket cm WHERE cmID={$_GET['ID']}";
-    error_log($query);
-    $q = mysql_query($query, $c);
+    error_log("SELECT * FROM crystalmarket cm WHERE cmID={$_GET['ID']}");
+    $q = mysql_query("SELECT * FROM crystalmarket cm WHERE cmID={$_GET['ID']}", $c);
     if (!mysql_num_rows($q))
     {
         print
@@ -125,9 +124,8 @@ function crystal_buy()
         $h->endpage();
         exit;
     }
-    $query2 = "UPDATE users SET crystals=crystals+{$r['cmQTY']} where userid=$userid";
-    error_log($query2);
-    mysql_query($query2, $c);
+    error_log("UPDATE users SET crystals=crystals+{$r['cmQTY']} where userid=$userid");
+    mysql_query("UPDATE users SET crystals=crystals+{$r['cmQTY']} where userid=$userid", $c);
     mysql_query("DELETE FROM crystalmarket WHERE cmID={$_GET['ID']}", $c);
     mysql_query(
             "UPDATE users SET money=money-{$r['cmPRICE']} where userid=$userid",
