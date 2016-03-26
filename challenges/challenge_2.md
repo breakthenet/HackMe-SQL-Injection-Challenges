@@ -20,12 +20,12 @@ Stuck?
 ----------------------
 <details> 
   <summary>Click for hint 1</summary>
-   [Here is the code](https://github.com/breakthenet/sql-injection-challenge-1/blob/master/cmarket.php#L109-L111) associated with buying crystals from the crystal market. Anything stick out to you?
+   [Here is the code](https://github.com/breakthenet/sql-injection-exercises/blob/master/cmarket.php#L109-L111) associated with buying crystals from the crystal market. Anything stick out to you?
 </details>
 
 <details> 
   <summary>Click for hint 2</summary>
-   Always start with reconnaissance. Did you look for the sql definition of the [Crystal Market table](https://github.com/breakthenet/sql-injection-challenge-1/blob/master/dbdata.sql#L343-L348)?
+   Always start with reconnaissance. Did you look for the sql definition of the [Crystal Market table](https://github.com/breakthenet/sql-injection-exercises/blob/master/dbdata.sql#L343-L348)?
 </details>
 
 <details> 
