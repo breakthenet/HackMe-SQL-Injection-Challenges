@@ -2,7 +2,7 @@
 
 A Text-Based MMORPG Game based off Mccode Lite (GPL)
 
-Deploy to your own Heroku instance with this button below, then complete the challenge!
+Deploy to your own Heroku instance with this button below, then complete the challenges!
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
