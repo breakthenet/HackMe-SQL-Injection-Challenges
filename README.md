@@ -1,6 +1,6 @@
-# SQL Injection Exercises
+# SQL Injection Challenges
 
-A Text-Based MMORPG Game based off Mccode Lite (GPL)
+These challenges are set in a Text-Based 'MM'ORPG Game based off Mccode Lite Game Engine (GPL)
 
 Deploy to your own Heroku instance with this button below, then complete the challenges!
 
