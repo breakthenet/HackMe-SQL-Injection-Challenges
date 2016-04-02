@@ -6,7 +6,7 @@ Bad news. I just got a message from the hacker, and he included my admin account
 
 Can you see if you can duplicate?
 
-I'd also like to know if he can get my plaintext password from the hash. Once you extract it, can you see if you can convert it to plaintext?
+I'd also like to know if he can get my plaintext password from the hash. Once you extract the hash, can you see if you can convert it to plaintext?
 
 Thanks!
 
