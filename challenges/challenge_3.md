@@ -2,7 +2,7 @@
 
 ----------------------
 
-Bad news. I just got a message from the hacker, and he included my admin account's password in an md5 hashed form. That only exists in my database in the user table. Is it possible he used the same exploit as the last excersize to extract this?
+Bad news. I just got a message from the hacker, and he included my admin account's password in an md5 hashed form. That only exists in my database in the user table. Is it possible he used the exploit from the last challenge to extract this?
 
 Can you see if you can duplicate?
 
